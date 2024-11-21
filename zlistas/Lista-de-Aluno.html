@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de Alunos</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/navegacao.css">
+    <link rel="stylesheet" href="../css/listagem.css">
+</head>
+<body onload="recuperarListaCarros()">
+    <header>
+        <nav>
+            <a href="../zlistas/Lista-de-Aluno.html">ALUNOS</a>
+            <a href="../zlistas/Lista-de-livros.html">LIVROS</a>
+            <a href="../zlistas/lista-de-emprestimos.html">EMPRESTIMOS</a>
+        </nav>
+    </header>
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="../zcadastros/Cadastro-de-Aluno.html">NOVO ALUNO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>ALUNO</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID ALUNO</th>
+                    <th>NOME</th>
+                    <th>SOBRENOME</th>
+                    <th>NASCIMENTO</th>
+                    <th>ENDEREÇO</th>
+                    <th>EMAIL</th>
+                    <th>CELULAR</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Conor</td>
+                    <td>McGregor</td>
+                    <td>2005-01-15</td>
+                    <td>Rua UFC, 123</td>
+                    <td>mcgregor@ufc.com</td>
+                    <td>16998959876</td>
+                    <td>
+                        <img src="../assets/icons/pencil-square.svg" alt="editar">
+                        <img src="../assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Amanda</td>
+                    <td>Nunes</td>
+                    <td>2004-03-22</td>
+                    <td>Rua UFC, 456</td>
+                    <td>amanda.nunes@ufc.com</td>
+                    <td>16998356654</td>
+                    <td>
+                        <img src="../assets/icons/pencil-square.svg" alt="editar">
+                        <img src="../assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>pietro</td>
+                    <td>Cervantes</td>
+                    <td>2005-04-24</td>
+                    <td>Rua Pegrinade-alves,334</td>
+                    <td>Pietro.cerv@outlook.com</td>
+                    <td>16997786789</td>
+                    <td>
+                        <img src="../assets/icons/pencil-square.svg" alt="editar">
+                        <img src="../assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/livro.js"></script>
+</body>
+</html>
